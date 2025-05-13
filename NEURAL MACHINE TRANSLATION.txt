@@ -1,0 +1,6 @@
+Neural machine translation is a recently proposed approach to machine translation that aims to build a single neural network train for the task.
+The previous Encoder–Decoder approaches needed neural networks to be able to compress all the necessary information of a source sentence into a fixed-length vector which is a performance bottleneck.
+The new approach is: each time the proposed model generates a word in a translation, it (soft-)searches for a set of positions in a source sentence where the most relevant information is concentrated. The model then predicts a target word based on the context vectors associated with these source positions and all the previous generated target words.
+It encodes the input sentence into a sequence of vectors and chooses a subset of these vectors adaptively while decoding the translation.
+The proposed model outperforms the conventional RNN encoder-decoders and matches the conventional phrase-based translation system 
+It is much better than the conventional model at translating long sentences. 
