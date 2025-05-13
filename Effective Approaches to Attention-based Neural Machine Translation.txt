@@ -1,0 +1,4 @@
+This paper examines two different attention types: a global approach which attends to all words and a local one that only looks at a subset of words at a time.
+The local attention model achieved a significant gain of 5.0 BLEU points over non-attention systems
+An ensemble model using different attention architectures has exceeded the current best results in the WMT’15 English to German translation task with 25.9 BLEU points, an improvement of 1.0 BLEU points over the existing best system.
+The new attention models are more effective in handling long sentences.
