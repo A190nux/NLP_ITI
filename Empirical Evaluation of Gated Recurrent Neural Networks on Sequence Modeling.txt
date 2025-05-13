@@ -1,0 +1,5 @@
+The paper compared 3 models: a normal tanh rnn, and LSTM, and a GRU model on three polyphonic music datasets as well as two datasets in which each sample is a raw speech representation.
+Using fixed number of parameters for all models on some datasets GRU, can outperform LSTM units both in terms of convergence in CPU time and in terms of parameter updates and generalization.
+In the case of the polyphonic music datasets, all three were similar in performance but GRU was slightly better.
+For the other two datasets, The LSTM was best with one, and GRU-RNN performed best with the other. Both of them outperformed the normal tanh RNN.
+we could not make concrete conclusion on which of the two gating units was better.
