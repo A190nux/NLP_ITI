@@ -1,0 +1,5 @@
+ROUGE-N measures the number of matching n-grams between the model-generated text and a human-produced reference.
+It is a metric and a software package specifically designed for evaluating automatic summarization, but can also be used for machine translation.
+The metrics compare an automatically produced summary or translation against reference (high-quality and human-produced) summaries or translations.
+It correlates positively with human evaluation, it’s inexpensive to compute and language-independent.
+But it can't handle different words that have the same meaning, as it measures syntactical matches rather than semantics.
