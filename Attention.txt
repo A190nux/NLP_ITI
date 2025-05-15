@@ -1,0 +1,13 @@
+Transformer models provide higher performance at lower resource cost.
+
+The sequential nature of recurrent neural networks preclude parallelization
+
+Attention was normally used with rnns but transformers rely entirely on Attention
+
+The network uses residual connections in both the encoder and the decoder
+
+The encoder consists of a multi headed self Attention layer followed by a feed forward network × 6
+
+The decoder additionally includes masked Attention to prevent the network from attending to the future
+
+Because transformers are not sequential we have to use positional encoding
